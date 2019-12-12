@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap');
+
+body{
+font: 300 20px/1.6 "Roboto", sans-serif;
+background: #44464d url(../img/fon.jpg) 50% no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	color: #081a31;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-playlist{
+	background-color: #fff;
+	border-radius: 20px;
+	max-width: 800px;
+	padding: 30px 20px;
+	margin: 30px auto;
+	box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+}
+.ba-playlist__title{
+	text-align: center;
+	font-weight: 700;
+	margin: 0 0 30px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.ba-tune{
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px solid rgb(163, 161, 161);
+	list-style: none;
+	letter-spacing: 1px;
+}
+.ba-tune__duration{
+	display: inline-block;
+   padding-right: 10px;
+    margin-right: 6px;
+    border-right: 1px solid rgba(164, 163, 169, 0.6);
+}
+.ba-tune__song{
+	font-weight: 700;
+	text-transform: capitalize;
+}
+.ba-tune__author{
+	text-transform: capitalize;
+}
+.ba-tune__top{
+	color: rgb(90, 88, 88);
+	margin-bottom: 5px;
+}
+
+.ba-tune__like{
+	margin-top: 14px;
+	width: 26px;
+	height: 26px;
+	float: right;
+	fill: #c03048;
+	cursor: pointer;
+}
+.ba-tune__like:hover{
+	fill: #44464d;
+}
